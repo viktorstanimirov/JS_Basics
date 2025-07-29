@@ -1,8 +1,7 @@
 function eveOrOdd(number) {
     if (number % 2 == 0) {
         console.log('even');
-    }
-    else {
+    } else {
         console.log('odd');
     }
 }

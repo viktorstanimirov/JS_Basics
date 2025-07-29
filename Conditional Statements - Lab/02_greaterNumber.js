@@ -1,8 +1,7 @@
 function greaterNumber(numOne, numTwo) {
     if (numOne > numTwo) {
         console.log(numOne);
-    }
-    else {
+    } else {
         console.log(numTwo);
     }
 }

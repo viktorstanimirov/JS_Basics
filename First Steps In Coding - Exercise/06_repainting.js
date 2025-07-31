@@ -6,8 +6,8 @@ function repainting(requiredNylon, necessaryPaint, thinnerAmount, workingTime) {
 
     let nylonCoast = (requiredNylon + 2) * nylonPrice;
     let paintCoast = (necessaryPaint + (necessaryPaint * 0.10)) * paintPrice;
-    let thinnerCoast = thinnerAmount * thinnerPrice;
-    let totalMaterialsPrice = nylonCoast + paintCoast + thinnerCoast + bagsPrice;
+    let thinnerCost = thinnerAmount * thinnerPrice;
+    let totalMaterialsPrice = nylonCoast + paintCoast + thinnerCost + bagsPrice;
     let totalWorkerPrice = (totalMaterialsPrice * 0.30) * workingTime;
     let totalPrice = totalMaterialsPrice + totalWorkerPrice;
 

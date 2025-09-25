@@ -40,7 +40,5 @@ function examTime(examHour, examMinutes, arrivalHour, arrivalMinutes) {
             console.log(`${hours}:${minutes} hours after the start`);
         }
     }
-
 }
 
-examTime(9, 0o0, 8, 30)

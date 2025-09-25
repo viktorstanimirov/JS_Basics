@@ -35,4 +35,3 @@ function journey(budget, season) {
     console.log(`${place} - ${totalPrice.toFixed(2)}`);
 }
 
-journey(1500, "summer")

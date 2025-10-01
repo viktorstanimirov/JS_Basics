@@ -5,4 +5,4 @@ function numbersNto1(number) {
     }
 }
 
-numbersNto1(10)
+numbersNto1(5);

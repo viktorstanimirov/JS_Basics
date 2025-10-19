@@ -9,4 +9,3 @@ function numberSum(number) {
 
     console.log(`The sum of the digits is:${sum}`);
 }
-
